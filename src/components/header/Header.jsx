@@ -2,8 +2,17 @@ import React from "react";
 import {useState} from"react";
 import"./Header.css";
 const Header = () => {
+    /*=============== change background===============*/
+    window.addEventListener("scroll", function () {
+        const header= document.querySelector(".header");
+        if (this.scrollY >= 560) header.classList.add
+        ("scroll-header");
+        else header.classList.remove("scroll-header");
+      });
+
     /*=============== Toggle menu ===============*/
     const[Toggle, showMenu] =useState(false)
+    const[activeNav,setActiveNav]=useState("#home");
 
     return (
     <header className="header">
@@ -14,7 +23,15 @@ const Header = () => {
                 <ul className="nav__list grid">
  
                     <li className="nav__item">
-                        <a href="" className="nav__link active-link">
+
+                        <a 
+                        href="#home" 
+                        onClick={()=>setActiveNav ('#home')}
+                        className={
+                            activeNav === "#home" ? "nav__link active-link"
+                            :"nav__link"
+                        }
+                        >
                             <i className="uil uil-estate nav__icon"> </i>
                                 Home
                           
@@ -22,7 +39,14 @@ const Header = () => {
                     </li>
 
                     <li className="nav__item">
-                        <a href="#about" className="nav__link">
+                    <a 
+                        href="#about" 
+                        onClick={()=>setActiveNav ('#about')}
+                        className={
+                            activeNav === "#about" ? "nav__link active-link"
+                            :"nav__link"
+                        }
+                        >
                             <i className="uil uil-user nav__icon"> </i>
                                 About
                            
@@ -30,7 +54,14 @@ const Header = () => {
                     </li>
 
                     <li className="nav__item">
-                        <a href="#skills" className="nav__link">
+                    <a 
+                        href="#skills" 
+                        onClick={()=>setActiveNav ('#skills')}
+                        className={
+                            activeNav === "#skills" ? "nav__link active-link"
+                            :"nav__link"
+                        }
+                        >
                             <i className="uil uil-file-alt nav__icon"> </i>
                                  Skills 
                         
@@ -38,7 +69,14 @@ const Header = () => {
                     </li>
 
                     <li className="nav__item">
-                        <a href="#services" className="nav__link">
+                    <a 
+                        href="#services" 
+                        onClick={()=>setActiveNav ('#services')}
+                        className={
+                            activeNav === "#services" ? "nav__link active-link"
+                            :"nav__link"
+                        }
+                        >
                             <i className="uil uil-briefcase-alt nav__icon"> </i>
                             Services
                            
@@ -46,7 +84,14 @@ const Header = () => {
                     </li>
 
                     <li className="nav__item">
-                        <a href="#portfolio" className="nav__link">
+                        <a href="#testimonials"  
+                        onClick={()=>setActiveNav ('#testimonials')}
+                        className={
+                            activeNav === "#testimonials" ? "nav__link active-link"
+                            :"nav__link"
+                        }
+                        >
+
                             <i className="uil uil-scenery nav__icon"></i>
                                 Portfolio
                             
@@ -54,7 +99,13 @@ const Header = () => {
                     </li>
 
                     <li className="nav__item">
-                        <a href="#contact" className="nav__link">
+                        <a href="#contact"   
+                         onClick={()=>setActiveNav ('##contact')}
+                         className={
+                             activeNav === "##contact" ? "nav__link active-link"
+                             :"nav__link"
+                         }
+                         >
                             <i className="uil uil-phone nav__icon"></i>
                                 Contact
                          
