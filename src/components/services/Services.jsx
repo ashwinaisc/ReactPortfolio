@@ -40,27 +40,27 @@ const Services = () => {
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop User Interface
+                  Build prototypes
                   </p>
                 </li>
 
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Webpage Development</p>
+                  <p className="services__modal-info">Conducting ux research</p>
                 </li>
 
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I Do Graphi</p>
+                  <p className="services__modal-info">Design and develop new products</p>
                 </li>
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I do Digital Marketing</p>
+                  <p className="services__modal-info">Prototype and test</p>
                 </li>
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I Do digital Media Contents
+                  User experience (ux) designer
                   </p>
                 </li>
               </ul>
@@ -90,27 +90,27 @@ const Services = () => {
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop User Interface
+                  Wireframing & Prototyping
                   </p>
                 </li>
 
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Webpage Development</p>
+                  <p className="services__modal-info">User Interface (UI) Design</p>
                 </li>
 
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I Do Graphic Designs</p>
+                  <p className="services__modal-info">User Experience (UX) Design</p>
                 </li>
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I do Digital Marketing</p>
+                  <p className="services__modal-info">Responsive & Mobile-First Design</p>
                 </li>
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I Do digital Media Contents
+                  E-Commerce & Product Design
                   </p>
                 </li>
               </ul>
@@ -120,7 +120,7 @@ const Services = () => {
 
         <div className="services__content">
           <i className="uil uil-edit services__icon"></i>
-          <h3 className="service__title">Visual <br /> Designer</h3>
+          <h3 className="service__title">Gaphic <br /> Designer</h3>
 
           <span className="services__button" onClick={() => toggleTab(3)}>
            
@@ -131,7 +131,7 @@ const Services = () => {
           <div className={toggleState===3? "services__modal active-modal":"services__modal"}>
             <div className="services__modal-content">
               <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">Graphic Designer</h3>
               <p className="services__modal-description">
                 Service with more than 3 years of experience. Providing quality
                 work to clients and Companies.
@@ -140,27 +140,27 @@ const Services = () => {
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop User Interface
+                  Branding & Identity Design
                   </p>
                 </li>
 
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Webpage Development</p>
+                  <p className="services__modal-info">Digital Design</p>
                 </li>
 
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I Do Graphic Designs</p>
+                  <p className="services__modal-info">Print Design</p>
                 </li>
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I Digital Marketing</p>
+                  <p className="services__modal-info">Motion Graphics & Animation</p>
                 </li>
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I Do digital Media Contents
+                  Advertising & Marketing Design
                   </p>
                 </li>
               </ul>
@@ -190,29 +190,24 @@ const Services = () => {
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop User Interface
+                  Website Design & Development
                   </p>
                 </li>
 
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Webpage Development</p>
+                  <p className="services__modal-info">E-Commerce Marketing</p>
                 </li>
 
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I Do Graphic Designs</p>
+                  <p className="services__modal-info">Social Media Marketing (SMM)</p>
                 </li>
                 <li className="services__modal-services">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I do 6Digital Marketing</p>
+                  <p className="services__modal-info">Search Engine Optimization (SEO)</p>
                 </li>
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I Do digital Media Contents
-                  </p>
-                </li>
+                
               </ul>
             </div>
           </div>
