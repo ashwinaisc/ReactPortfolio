@@ -59,8 +59,7 @@ const Data = () => {
     Creative and detail-oriented UI/UX Designer and Front-End Developer with 4+ years of experience
  designing user-centric web applications and interfaces. Proficient in React, JavaScript, HTML, CSS,
  and Figma, with a strong background in SEO-driven content creation and graphic design. Adept at
- translating client requirements into visually appealing and functional designs, improving user engage
-ment, and driving business growth.
+ translating client requirements into visually appealing and functional designs, improving user engagement, and driving business growth.
     </p>
     <a href="contact" className="button button--flex">
         Say Hello

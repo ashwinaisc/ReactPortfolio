@@ -20,7 +20,7 @@ const About = () => {
             interfaces. Proficient in React, JavaScript, HTML, CSS, and Figma,
             with a strong background in SEO-driven content creation and graphic
             design. Adept at translating client requirements into visually
-            appealing and functional designs, improving user engage- ment, and
+            appealing and functional designs, improving user engagment, and
             driving business growth.
           </p>
           <a download="" href={CV} className="button button--flex">

@@ -93,7 +93,7 @@ const Header = () => {
                         >
 
                             <i className="uil uil-scenery nav__icon"></i>
-                                Portfolio
+                                Testimonials
                             
                         </a>
                     </li>
