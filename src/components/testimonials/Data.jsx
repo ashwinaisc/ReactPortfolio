@@ -8,10 +8,10 @@ export const Data = [
     {
         id: 1, 
         image: testimonial1,
-        title: "Alvin Joseph",
+        title: "Nikhin Raphel",
         company: "Flavours Catering & Events",
         description:
-        "Ashwin transformed our catering business on social media! we saw a 30% increase in bookingsthanks to their creative content and targeted ads.Highly recommend their social media marketing expertise!",
+        "Ashwin transformed our catering business on social media! We saw a 30% increase in bookings. Thanks to their creative content and targeted ads.Highly recommend their social media marketing expertise!",
     },
 
     {
@@ -27,7 +27,7 @@ export const Data = [
         id: 3,
         image: testimonial3,
         title: "Manu Antony",
-        company:"olivez Restaurent",
+        company:"Olivez Restaurent",
        description:
         "Ais the designer transformed our online presence! Their tailored strategies, from social media to SEO, drove more customers to Olivez. We saw a significant boost in engagement, reservations, and foot traffic. Their team is professional, creative, and results-driven. Highly recommend! " ,
     },

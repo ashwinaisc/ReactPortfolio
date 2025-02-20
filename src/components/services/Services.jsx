@@ -120,7 +120,7 @@ const Services = () => {
 
         <div className="services__content">
           <i className="uil uil-edit services__icon"></i>
-          <h3 className="service__title">Gaphic <br /> Designer</h3>
+          <h3 className="service__title">Graphic <br /> Designer</h3>
 
           <span className="services__button" onClick={() => toggleTab(3)}>
            
